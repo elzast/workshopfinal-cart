@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "devyou-cafe-ws",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "devyou-cafe-ws"
+  }
+}

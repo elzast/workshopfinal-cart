@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevYou Cafe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="checkout-container">
+      <div class="checkout-popup-div">
+        <button type="button" class="delete hide-checkout btn">X</button>
+        <div class="pop-up-text">
+          <p class="pop-up-p">Your order has been placed!</p>
+          <p class="pop-up-p"><span class="total-span">Your total is:</span></p>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <h1 class="logo-text">DevYou <span class="logo-span">Cafe</span></h1>
+        </div>
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Coffee</a></li>
+        </ul>
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Tea</a></li>
+        </ul>
+        <ul>
+          <li class="nav-list"><a class="nav-item link" href="#">Sweets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="total-div">
+        <p class="total">Total:</p>
+        <button class="checkout-btn btn show-checkout">Check out</button>
+      </div>
+      <section class="product-section">
+        <div class="product-menu-container">
+          <div class="product">
+            <h2 class="product-title">Drip Coffee</h2>
+            <img
+              class="product-img"
+              src="../products/coffee-product.jpeg"
+              alt="coffee cup"
+            />
+            <p class="product-text">Price : $2</p>
+            <button data-cost="2" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+          <div class="product">
+            <h2 class="product-title">Hot Tea</h2>
+            <img
+              class="product-img"
+              src="../products/tea-product.jpeg"
+              alt="tea cup"
+            />
+            <p class="product-text">Price : $2</p>
+            <button data-cost="2" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+          <div class="product">
+            <h2 class="product-title">Matcha Latte</h2>
+            <img
+              class="product-img"
+              src="../products/matcha-product.jpeg"
+              alt="cake tray"
+            />
+            <p class="product-text">Price : $4</p>
+            <button data-cost="4" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+          <div class="product">
+            <h2 class="product-title">Latte</h2>
+            <img
+              class="product-img"
+              src="../products/latte-product.jpeg"
+              alt="cake tray"
+            />
+            <p class="product-text">Price : $4</p>
+            <button data-cost="4" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+          <div class="product">
+            <h2 class="product-title">Cupcake</h2>
+            <img
+              class="product-img"
+              src="../products/cupcake-product.jpeg"
+              alt="cake tray"
+            />
+            <p class="product-text">Price : $3</p>
+            <button data-cost="3" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+          <div class="product">
+            <h2 class="product-title">Cookie 3pk</h2>
+            <img
+              class="product-img"
+              src="../products/cookies-product.jpeg"
+              alt="cake tray"
+            />
+            <p class="product-text">Price : $5</p>
+            <button data-cost="5" class="button cart-btn btn">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
